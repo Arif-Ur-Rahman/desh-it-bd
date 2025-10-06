@@ -1,3 +1,4 @@
+import HeroSection from "@/components/global-components/Hero";
 import Navbar from "@/components/global-components/Navbar";
 import Image from "next/image";
 
@@ -10,6 +11,7 @@ export default function Home() {
       }}
     >
       <Navbar />
+      <HeroSection />
     </div>
   );
 }
