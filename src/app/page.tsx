@@ -1,5 +1,6 @@
 import HeroSection from "@/components/global-components/Hero";
 import Navbar from "@/components/global-components/Navbar";
+import Stats from "@/components/global-components/Stats";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
     >
       <Navbar />
       <HeroSection />
+      <Stats />
     </div>
   );
 }
