@@ -1,3 +1,4 @@
+import ContactSection from "@/components/global-components/Contact";
 import HeroSection from "@/components/global-components/Hero";
 import Navbar from "@/components/global-components/Navbar";
 import Services from "@/components/global-components/Services";
@@ -16,6 +17,7 @@ export default function Home() {
       <HeroSection />
       <Stats />
       <Services />
+      <ContactSection />
     </div>
   );
 }
