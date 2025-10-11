@@ -58,7 +58,7 @@ const ClientReviews = () => {
               {/* Quote */}
               <div className="mb-6">
                 <p className="text-gray-300 text-lg leading-relaxed text-center">
-                  "{review.quote}"
+                  {review.quote}
                 </p>
               </div>
 
