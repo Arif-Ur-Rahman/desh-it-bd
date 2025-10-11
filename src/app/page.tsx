@@ -2,6 +2,7 @@ import ContactSection from "@/components/global-components/Contact";
 import HeroSection from "@/components/global-components/Hero";
 import Navbar from "@/components/global-components/Navbar";
 import Services from "@/components/global-components/Services";
+import Skills from "@/components/global-components/Skills";
 import Stats from "@/components/global-components/Stats";
 import Image from "next/image";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <Stats />
       <Services />
       <ContactSection />
+      <Skills />
     </div>
   );
 }
