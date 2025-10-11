@@ -1,6 +1,8 @@
+import ClientReviews from "@/components/global-components/ClientReviews";
 import ContactSection from "@/components/global-components/Contact";
 import HeroSection from "@/components/global-components/Hero";
 import Navbar from "@/components/global-components/Navbar";
+import ProjectsSection from "@/components/global-components/Projects";
 import Services from "@/components/global-components/Services";
 import Skills from "@/components/global-components/Skills";
 import Stats from "@/components/global-components/Stats";
@@ -20,6 +22,8 @@ export default function Home() {
       <Services />
       <ContactSection />
       <Skills />
+      <ProjectsSection />
+      <ClientReviews />
     </div>
   );
 }
