@@ -1,4 +1,5 @@
 import ClientReviews from "@/components/global-components/ClientReviews";
+import Connect from "@/components/global-components/Connect";
 import ContactSection from "@/components/global-components/Contact";
 import HeroSection from "@/components/global-components/Hero";
 import Navbar from "@/components/global-components/Navbar";
@@ -24,6 +25,7 @@ export default function Home() {
       <Skills />
       <ProjectsSection />
       <ClientReviews />
+      <Connect />
     </div>
   );
 }
